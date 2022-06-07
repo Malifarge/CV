@@ -21,6 +21,11 @@ h3,span{
     text-decoration: underline red;
 }
 
+li{
+    list-style-type:none;
+    margin: 10px;
+}
+
 /* header */
 
 header{
@@ -44,4 +49,10 @@ h1{
 img{
     margin: 10px 0;
     width: 100%;
+}
+
+/* formation */
+
+.preci{
+    padding-left: 20px;
 }
