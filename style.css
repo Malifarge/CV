@@ -17,6 +17,10 @@ body{
     padding: 5%;
 }
 
+h3,span{
+    text-decoration: underline red;
+}
+
 /* header */
 
 header{
@@ -27,4 +31,10 @@ h1{
     background-color: black;
     color: white;
     padding: 10px;
+}
+
+/* Présentation */
+
+.pres{
+    padding: 20px 0;
 }
