@@ -23,7 +23,10 @@ h3,span{
 
 li{
     list-style-type:none;
-    margin: 10px;
+}
+
+li,.marg{
+    margin: 10px 0;
 }
 
 /* header */
@@ -47,7 +50,6 @@ h1{
 /* Compétence */
 
 img{
-    margin: 10px 0;
     width: 100%;
 }
 
