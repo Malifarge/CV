@@ -52,7 +52,11 @@ span{
     border-bottom: 3px solid red;
 }
 
-h2{
+h2.Petit{
+    display: none;
+}
+
+h2.Grand{
     font-size: 25px;
     font-weight: bold;
 }
@@ -80,4 +84,33 @@ img{
 
 .preci{
     padding-left: 20px;
+}
+
+/* média querie */
+
+@media (max-width: 500px){
+    h2.Grand{
+        display: none;
+    }
+
+    h2.Petit{
+        display: block;
+        font-size: 25px;
+        font-weight: bold;
+        letter-spacing: 5px;
+    }
+
+    h1{
+        position:static;
+        margin: 0;
+    }
+
+    header{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    span{
+        padding: 0 60px;
+    }
 }
